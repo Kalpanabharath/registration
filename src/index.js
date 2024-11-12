@@ -7,7 +7,9 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename="/registration">
+      {" "}
+      {/* basename is important for GitHub Pages */}
       <App />
     </HashRouter>
   </React.StrictMode>
