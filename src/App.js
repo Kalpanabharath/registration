@@ -9,7 +9,7 @@ import ViewUser from "./ViewUser";
 function App() {
   return (
     <Routes>
-      <Route path="/registration/" element={<Registration />} />
+      <Route path="/registration" element={<Registration />} />
       <Route path="/user/create" element={<CreateUser />} />
       <Route path="/user/edit/:userid" element={<EditUser />} />
       <Route path="/user/view/:userid" element={<ViewUser />} />
