@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter } from "react-router-dom"; // Import HashRouter
+import { HashRouter } from "react-router-dom"; // Use HashRouter for GitHub Pages
 import "./index.css";
 import App from "./App";
 
@@ -8,8 +8,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <HashRouter basename="/registration">
-      {" "}
-      {/* basename is important for GitHub Pages */}
       <App />
     </HashRouter>
   </React.StrictMode>
