@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Registration from "./Registration";
 import CreateUser from "./CreateUser";
