@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom"; // No need for HashRouter here
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Registration from "./Registration";
 import CreateUser from "./CreateUser";
