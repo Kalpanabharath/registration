@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "kalpana E",
+      "email": "stonepanakeerthu@gmail.com",
+      "dateOfBirth": "2024-11-07"
+    },
+    {
+      "id": "2",
+      "name": "keerhana",
+      "email": "keerthana@gmail.com",
+      "dateOfBirth": "2024-11-14"
+    },
+    {
+      "id": "3",
+      "name": "bharath",
+      "email": "bharath@gmail.com",
+      "dateOfBirth": "2024-11-21"
+    }
+  ]
+}

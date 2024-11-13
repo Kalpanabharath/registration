@@ -1,0 +1,151 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif; /* Modern Google Font */
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: slideIn 0.8s ease-out;
+}
+
+h2 {
+  font-size: 28px;
+  color: #444;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Table container styling */
+.table-container {
+  padding: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+  overflow-x: auto;
+}
+
+.table-container th,
+.table-container td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.table-container th {
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table-container td {
+  transition: background-color 0.3s ease;
+}
+
+.table-container td:hover {
+  background-color: #f1f5f8; /* Subtle highlight */
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-add {
+  background-color: #43a047;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.btn-add:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+.btn-info {
+  background-color: #1e88e5;
+}
+
+.btn-info:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: #e65100;
+}
+
+.btn-primary:hover {
+  background-color: #bf360c;
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background-color: #d32f2f;
+}
+
+.btn-danger:hover {
+  background-color: #c62828;
+  transform: scale(1.05);
+}
+
+/* Fade-in animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+td > button {
+  width: 29%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .table-container table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+}
